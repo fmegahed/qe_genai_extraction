@@ -4,8 +4,8 @@ A FastAPI web app that captures expert human ratings of the correctness of LLM-e
 structured data (manufacturer, vehicle models, model years) from 30 NHTSA vehicle-recall
 defect descriptions. Two models are evaluated (gemma4:e2b and gpt-5.4-nano, first repeat
 only), giving each reviewer 60 blinded extractions to rate on a 1-5 correctness scale.
-Ratings feed the accuracy analysis in the *Quality Engineering* paper "What Quality
-Engineers Need to Know About Generative AI: Part 1".
+Ratings feed the accuracy analysis in our paper "What Quality Engineers Need to Know
+About Generative AI: Structured Data Extraction", to be submitted to *Quality Engineering*.
 
 ## Study design
 
