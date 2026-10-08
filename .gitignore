@@ -1,0 +1,28 @@
+# Not part of the public repository
+.claude/
+/docs/
+/paper/
+/refs/
+/video/
+CLAUDE.md
+/Call for expository papers - Quality Engineering - 2024.pdf
+
+# Apps that are their own Git repositories
+/apps/arxiv_control_charts/
+/apps/author_review/
+
+# Secrets and local environment
+.Renviron
+.env
+.Rproj.user/
+.Rhistory
+.RData
+
+# Generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+Rplots.pdf
+
+# Working files
+/app1_eval_code/Screenshot*.png

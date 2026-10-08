@@ -1,0 +1,2 @@
+model_name,temperature,n_documents,n_repeats,n_extractions,n_success,n_failure,success_rate,total_runtime_sec,mean_runtime_per_extraction_sec,median_runtime_per_extraction_sec,mean_total_runtime_per_document_sec
+llama3.2:3b,0,30,5,150,150,0,1,1267.1346192359924,8.44756412823995,7.810802578926086,42.23782064119975

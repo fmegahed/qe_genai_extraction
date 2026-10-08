@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+{% block content_class %}narrow{% endblock %}
+
+{% block content %}
+<div class="card" style="text-align: center; margin-top: 24px;">
+  <h2>Welcome, {{ reviewer_name }}!</h2>
+  <p>Thank you for helping us evaluate AI-extracted information from vehicle recall descriptions.</p>
+  <p>You have <strong>{{ total_items }}</strong> extractions to review.
+     {% if rated > 0 %}You've already completed <strong>{{ rated }}</strong> — your progress is saved, and you can pick up right where you left off.{% endif %}
+  </p>
+</div>
+
+<div class="info-card">
+  <p><strong>Why your review matters:</strong></p>
+  <p>Our research team uses large language models to automatically extract structured information
+     (the manufacturer, the affected vehicle models, and the model years) from official vehicle
+     recall descriptions. Your expert ratings help us measure how accurate these extractions are.
+     Results will be reported <strong>in aggregate</strong> in a manuscript submitted to
+     <em>Quality Engineering</em>. No individual responses will be attributed to you by name.</p>
+</div>
+
+<div class="info-card">
+  <p><strong>How it works:</strong></p>
+  <ul style="margin: 8px 0; padding-left: 20px; line-height: 1.7;">
+    <li>Each screen shows one recall description and one AI extraction of the
+        <strong>manufacturer</strong>, <strong>vehicle models</strong>, and <strong>model years</strong>.
+        The manufacturer is shown exactly as the AI returned it; the models and model years
+        are shown as bulleted lists when the AI returned several values.</li>
+    <li>Rate each of the three fields on a 1&ndash;5 correctness scale (definitions below).
+        Judge each extraction only against the recall text shown on that screen.</li>
+    <li>The extractions come from two different AI models, shown in randomized order without
+        identification. Some recall descriptions will therefore appear twice &mdash; that is intentional.
+        Please rate each extraction on its own merits.</li>
+    <li>Your answers are saved every time you press <em>Save &amp; Continue</em>. You can close the
+        browser and return later with the same link, and you can go back to revise earlier answers.</li>
+    <li><strong>Keyboard shortcuts:</strong> press <kbd>1</kbd>&ndash;<kbd>5</kbd> to rate the
+        highlighted field (it moves down automatically), then <kbd>Enter</kbd> to save and continue.</li>
+  </ul>
+  <p>Most reviewers finish in 30&ndash;45 minutes. There is a suggested break at the halfway point,
+     but you can pause at any time.</p>
+</div>
+
+<div class="info-card">
+  <p><strong>Judging tips:</strong></p>
+  <ul style="margin: 8px 0; padding-left: 20px; line-height: 1.7;">
+    <li><strong>Focus on content, not formatting.</strong> If a field gives the same entity in
+        two forms (for example, "Ford Motor Company; Ford"), rate whether the information is
+        supported by the recall description rather than how it is written.</li>
+    <li><strong>Rate each field only on its own information.</strong> If the vehicle models
+        include model years (for example, "2026 NV7G" or "S2C 106 (2023-2024)"), do not
+        penalize the Models field for the extra years. Judge the years when you rate the
+        Model Years field.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3 style="margin-bottom: 8px;">The 1&ndash;5 correctness scale</h3>
+  <table class="scale-table">
+    <thead>
+      <tr><th>Score</th><th>Anchor</th><th>Definition</th></tr>
+    </thead>
+    <tbody>
+      {% for val in range(1, 6) %}
+      <tr>
+        <td>{{ val }}</td>
+        <td>{{ anchors[val].label }}</td>
+        <td>{{ anchors[val].definition }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div style="text-align: center; margin: 28px 0;">
+  <a href="/review/{{ token }}/next" class="btn btn-primary" style="font-size: 1.1rem; padding: 14px 40px;">
+    {% if rated > 0 %}Resume Review ({{ remaining }} remaining){% else %}Start Review{% endif %}
+  </a>
+</div>
+{% endblock %}

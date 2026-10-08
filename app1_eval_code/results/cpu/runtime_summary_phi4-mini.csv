@@ -1,0 +1,2 @@
+model_name,temperature,n_documents,n_repeats,n_extractions,n_success,n_failure,success_rate,total_runtime_sec,mean_runtime_per_extraction_sec,median_runtime_per_extraction_sec,mean_total_runtime_per_document_sec
+phi4-mini,0,30,5,150,150,0,1,1421.8825163841248,9.479216775894166,7.991967558860779,47.39608387947082

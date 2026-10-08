@@ -1,0 +1,151 @@
+document_id,model_name,repeat_id,temperature,manufacturer,models,model_years,success,error_message,runtime_sec,chat_timestamp
+1,gpt-5.4-nano,1,0,"Forest River, Inc.; Forest River",Salem; Wildwood,2023; 2024,TRUE,,3.025866985321045,2026-07-12T22:29:52Z
+2,gpt-5.4-nano,1,0,"General Motors, LLC (GM)",Express; Savana,2025; 2026,TRUE,,1.708310842514038,2026-07-12T22:29:54Z
+3,gpt-5.4-nano,1,0,Honda (American Honda Motor Co.),Acura RDX,2025,TRUE,,0.9592070579528809,2026-07-12T22:29:55Z
+4,gpt-5.4-nano,1,0,"Daimler Trucks North America, LLC (DTNA)",Freightliner Custom Chassis S2C 106; Freightliner Custom Chassis S2RV 106,2023; 2024; 2025,TRUE,,1.4367401599884033,2026-07-12T22:29:57Z
+5,gpt-5.4-nano,1,0,"International Motors, LLC; International",IC Bus CESB,2026; 2027,TRUE,,0.8773798942565918,2026-07-12T22:29:57Z
+6,gpt-5.4-nano,1,0,"Hino Motors Sales U.S.A., Inc.; Hino",NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,1.103748083114624,2026-07-12T22:29:59Z
+7,gpt-5.4-nano,1,0,Volvo Trucks North America (Volvo Trucks),VNR (4); VNL (4),2025; 2026; 2027,TRUE,,0.8924360275268555,2026-07-12T22:29:59Z
+8,gpt-5.4-nano,1,0,"Volkswagen Group of America, Inc. (Audi)",SQ6 e-tron; Q6 e-tron,2025,TRUE,,1.4201538562774658,2026-07-12T22:30:01Z
+9,gpt-5.4-nano,1,0,"BMW of North America, LLC; BMW",740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024,TRUE,,1.3915660381317139,2026-07-12T22:30:02Z
+10,gpt-5.4-nano,1,0,Bombardier Recreational Products (BRP),Can-Am Origin; Pulse,2025,TRUE,,2.3248140811920166,2026-07-12T22:30:05Z
+11,gpt-5.4-nano,1,0,Ford Motor Company (Ford); Ford,Bronco Sport,2024,TRUE,,2.4537601470947266,2026-07-12T22:30:07Z
+12,gpt-5.4-nano,1,0,Ford Motor Company; Ford,F-150,2024,TRUE,,0.8268120288848877,2026-07-12T22:30:08Z
+13,gpt-5.4-nano,1,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014; 2015; 2016; 2017; 2018; 2013; 2019; 2020; 2021; 2022; 2023; 2024,TRUE,,1.0623340606689453,2026-07-12T22:30:09Z
+14,gpt-5.4-nano,1,0,Ford Motor Company (Ford); Ford,Bronco Sport; Maverick,2021; 2022; 2023; 2024,TRUE,,1.0159480571746826,2026-07-12T22:30:10Z
+15,gpt-5.4-nano,1,0,Shyft Group (Shyft),Utilimaster Velocity,2025,TRUE,,0.7221899032592773,2026-07-12T22:30:11Z
+16,gpt-5.4-nano,1,0,"Forest River, Inc.; Forest River",Puma PUT39DBT,2024; 2025,TRUE,,0.9594781398773193,2026-07-12T22:30:12Z
+17,gpt-5.4-nano,1,0,Thor Motor Coach (TMC),Twist; Dazzle; Tranquility; Sanctuary; Tellaro; Sequence; Freedom Elite Van,2022; 2023; 2024,TRUE,,1.2504959106445313,2026-07-12T22:30:13Z
+18,gpt-5.4-nano,1,0,"Forest River, Inc.; Forest River",Coachmen Concord CNC321DSF,2023; 2024,TRUE,,0.8370559215545654,2026-07-12T22:30:14Z
+19,gpt-5.4-nano,1,0,"Maserati North America, Inc.; Maserati",Grecale; GranTurismo,2023; 2024,TRUE,,1.2413239479064941,2026-07-12T22:30:15Z
+20,gpt-5.4-nano,1,0,Honda (American Honda Motor Co.),Acura TLX; Acura MDX; Honda Pilot,2021; 2022; 2023; 2024; 2025,TRUE,,1.1648399829864502,2026-07-12T22:30:16Z
+21,gpt-5.4-nano,1,0,"Forest River, Inc.; Forest River",NOBO; Ibex; RPOD,2025; 2026; 2027,TRUE,,1.3532710075378418,2026-07-12T22:30:18Z
+22,gpt-5.4-nano,1,0,"Volvo Car USA, LLC; Volvo Car",XC40; V90; S90; V90CC; C40; XC60; S60; V60; V60CC; XC90; EC40; EX40,2021; 2022; 2023; 2024; 2025,TRUE,,0.9860718250274658,2026-07-12T22:30:19Z
+23,gpt-5.4-nano,1,0,"BMW of North America, LLC; BMW",X1; X5; X6; X7; XM; 530i; i5; 740i; 760i; i7; 750e,2023; 2024,TRUE,,0.9309160709381104,2026-07-12T22:30:19Z
+24,gpt-5.4-nano,1,0,"Forest River, Inc.; Forest River",Dynamax Europa; Grand Sport GT,2026,TRUE,,2.2199130058288574,2026-07-12T22:30:22Z
+25,gpt-5.4-nano,1,0,E-One Incorporated (E-One),Cyclone N; Typhoon N,2024,TRUE,,1.0472300052642822,2026-07-12T22:30:23Z
+26,gpt-5.4-nano,1,0,Zero Motorcycles Inc. (Zero),DSR/X; DS; DSR; DSRP,2023; 2024,TRUE,,1.4612500667572021,2026-07-12T22:30:24Z
+27,gpt-5.4-nano,1,0,"Tesla, Inc.; Tesla",Model S; Model X,2021; 2022; 2023; 2024; 2025,TRUE,,1.0544688701629639,2026-07-12T22:30:25Z
+28,gpt-5.4-nano,1,0,PACCAR Incorporated (PACCAR),,2021; 2022; 2023; 2024; 2025,TRUE,,0.8739349842071533,2026-07-12T22:30:26Z
+29,gpt-5.4-nano,1,0,Aston Martin The Americas (Aston Martin),DBX,2021; 2022; 2023; 2024,TRUE,,1.1546580791473389,2026-07-12T22:30:27Z
+30,gpt-5.4-nano,1,0,"New Flyer of America, Inc. (New Flyer)",XDE60; XD35; XD40; XD60,2023; 2024,TRUE,,0.8404378890991211,2026-07-12T22:30:28Z
+1,gpt-5.4-nano,2,0,"Forest River, Inc.; Forest River",Salem; Wildwood,2023; 2024,TRUE,,0.8771071434020996,2026-07-12T22:30:29Z
+2,gpt-5.4-nano,2,0,"General Motors, LLC (GM)",Express; Savana,2025; 2026,TRUE,,1.118095874786377,2026-07-12T22:30:30Z
+3,gpt-5.4-nano,2,0,Honda (American Honda Motor Co.),Acura RDX,2025,TRUE,,0.8513138294219971,2026-07-12T22:30:31Z
+4,gpt-5.4-nano,2,0,"Daimler Trucks North America, LLC (DTNA)",Freightliner Custom Chassis S2C 106; Freightliner Custom Chassis S2RV 106,2023; 2024; 2025,TRUE,,1.1921980381011963,2026-07-12T22:30:32Z
+5,gpt-5.4-nano,2,0,"International Motors, LLC; International",IC Bus CESB,2026; 2027,TRUE,,0.7557461261749268,2026-07-12T22:30:33Z
+6,gpt-5.4-nano,2,0,"Hino Motors Sales U.S.A., Inc.; Hino",NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,1.0370149612426758,2026-07-12T22:30:34Z
+7,gpt-5.4-nano,2,0,Volvo Trucks North America (Volvo Trucks),VNR (4); VNL (4),2025; 2026; 2027,TRUE,,1.0102190971374512,2026-07-12T22:30:35Z
+8,gpt-5.4-nano,2,0,"Volkswagen Group of America, Inc. (Audi)",SQ6 e-tron; Q6 e-tron,2025,TRUE,,1.061094045639038,2026-07-12T22:30:36Z
+9,gpt-5.4-nano,2,0,"BMW of North America, LLC; BMW",740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024,TRUE,,1.6575860977172852,2026-07-12T22:30:38Z
+10,gpt-5.4-nano,2,0,Bombardier Recreational Products (BRP),Can-Am Origin; Pulse,2025,TRUE,,1.099034070968628,2026-07-12T22:30:39Z
+11,gpt-5.4-nano,2,0,Ford Motor Company; Ford,Bronco Sport,2024,TRUE,,1.1442179679870605,2026-07-12T22:30:40Z
+12,gpt-5.4-nano,2,0,Ford Motor Company (Ford); Ford,F-150,2024,TRUE,,0.9630141258239746,2026-07-12T22:30:41Z
+13,gpt-5.4-nano,2,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024,TRUE,,1.1741769313812256,2026-07-12T22:30:42Z
+14,gpt-5.4-nano,2,0,Ford Motor Company (Ford); Ford,Bronco Sport; Maverick,2021; 2022; 2023; 2024,TRUE,,0.7648980617523193,2026-07-12T22:30:43Z
+15,gpt-5.4-nano,2,0,Shyft Group (Shyft),Utilimaster Velocity,2025,TRUE,,0.6697208881378174,2026-07-12T22:30:44Z
+16,gpt-5.4-nano,2,0,"Forest River, Inc.; Forest River",Puma PUT39DBT,2024; 2025,TRUE,,0.8302721977233887,2026-07-12T22:30:45Z
+17,gpt-5.4-nano,2,0,Thor Motor Coach (TMC),Twist; Dazzle; Tranquility; Sanctuary; Tellaro; Sequence; Freedom Elite Van,2022; 2023; 2024,TRUE,,0.7783808708190918,2026-07-12T22:30:45Z
+18,gpt-5.4-nano,2,0,"Forest River, Inc.; Forest River",Coachmen Concord CNC321DSF,2023; 2024,TRUE,,0.8930649757385254,2026-07-12T22:30:46Z
+19,gpt-5.4-nano,2,0,"Maserati North America, Inc.; Maserati",Grecale; GranTurismo,2023; 2024,TRUE,,0.7847259044647217,2026-07-12T22:30:47Z
+20,gpt-5.4-nano,2,0,Honda (American Honda Motor Co.),Acura TLX; Acura MDX; Honda Pilot,2021; 2022; 2023; 2024; 2025,TRUE,,0.8817358016967773,2026-07-12T22:30:48Z
+21,gpt-5.4-nano,2,0,"Forest River, Inc.; Forest River",NOBO; Ibex; RPOD,2025; 2026; 2027,TRUE,,1.153620958328247,2026-07-12T22:30:49Z
+22,gpt-5.4-nano,2,0,"Volvo Car USA, LLC; Volvo Car",XC40; V90; S90; V90CC; C40; XC60; S60; V60; V60CC; XC90; EC40; EX40,2021; 2022; 2023; 2024; 2025,TRUE,,0.9491260051727295,2026-07-12T22:30:50Z
+23,gpt-5.4-nano,2,0,"BMW of North America, LLC; BMW",X1; X5; X6; X7; XM; 530i; i5; 740i; 760i; i7; 750e,2023; 2024,TRUE,,1.680346965789795,2026-07-12T22:30:52Z
+24,gpt-5.4-nano,2,0,"Forest River, Inc.; Forest River",Dynamax Europa; Grand Sport GT,2026,TRUE,,0.8320150375366211,2026-07-12T22:30:53Z
+25,gpt-5.4-nano,2,0,E-One Incorporated (E-One),Cyclone N; Typhoon N,2024,TRUE,,0.9875478744506836,2026-07-12T22:30:54Z
+26,gpt-5.4-nano,2,0,Zero Motorcycles Inc. (Zero),DSR/X; DS; DSR; DSRP,2023; 2024,TRUE,,0.8546819686889648,2026-07-12T22:30:55Z
+27,gpt-5.4-nano,2,0,"Tesla, Inc.; Tesla",Model S; Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.9540379047393799,2026-07-12T22:30:55Z
+28,gpt-5.4-nano,2,0,PACCAR Incorporated (PACCAR),,2021; 2022; 2023; 2024; 2025,TRUE,,0.857072114944458,2026-07-12T22:30:56Z
+29,gpt-5.4-nano,2,0,Aston Martin The Americas (Aston Martin); Aston Martin,DBX,2021; 2022; 2023; 2024,TRUE,,1.1101858615875244,2026-07-12T22:30:57Z
+30,gpt-5.4-nano,2,0,"New Flyer of America, Inc. (New Flyer)",XDE60; XD35; XD40; XD60,2023; 2024,TRUE,,0.8386268615722656,2026-07-12T22:30:58Z
+1,gpt-5.4-nano,3,0,"Forest River, Inc.; Forest River",Salem; Wildwood,2023; 2024,TRUE,,1.0696508884429932,2026-07-12T22:30:59Z
+2,gpt-5.4-nano,3,0,"General Motors, LLC (GM); GM",Express; Savana,2025; 2026,TRUE,,1.3032939434051514,2026-07-12T22:31:01Z
+3,gpt-5.4-nano,3,0,Honda (American Honda Motor Co.),Acura RDX,2025,TRUE,,0.684337854385376,2026-07-12T22:31:01Z
+4,gpt-5.4-nano,3,0,"Daimler Trucks North America, LLC (DTNA)",Freightliner Custom Chassis S2C 106; Freightliner Custom Chassis S2RV 106,2023; 2024; 2025,TRUE,,1.2159302234649658,2026-07-12T22:31:03Z
+5,gpt-5.4-nano,3,0,"International Motors, LLC; International",IC Bus CESB,2026; 2027,TRUE,,0.6711621284484863,2026-07-12T22:31:03Z
+6,gpt-5.4-nano,3,0,"Hino Motors Sales U.S.A., Inc.; Hino",NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.9111948013305664,2026-07-12T22:31:04Z
+7,gpt-5.4-nano,3,0,Volvo Trucks North America (Volvo Trucks),VNR (4); VNL (4),2025; 2026; 2027,TRUE,,0.8077569007873535,2026-07-12T22:31:05Z
+8,gpt-5.4-nano,3,0,"Volkswagen Group of America, Inc. (Audi)",SQ6 e-tron; Q6 e-tron,2025,TRUE,,0.7842121124267578,2026-07-12T22:31:06Z
+9,gpt-5.4-nano,3,0,"BMW of North America, LLC (BMW)",740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024,TRUE,,1.2177560329437256,2026-07-12T22:31:07Z
+10,gpt-5.4-nano,3,0,Bombardier Recreational Products (BRP),Can-Am Origin; Pulse,2025,TRUE,,0.7715308666229248,2026-07-12T22:31:08Z
+11,gpt-5.4-nano,3,0,Ford Motor Company (Ford),Bronco Sport,2024,TRUE,,1.0775749683380127,2026-07-12T22:31:09Z
+12,gpt-5.4-nano,3,0,Ford Motor Company (Ford); Ford,F-150,2024,TRUE,,0.699699878692627,2026-07-12T22:31:10Z
+13,gpt-5.4-nano,3,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024,TRUE,,0.9526689052581787,2026-07-12T22:31:11Z
+14,gpt-5.4-nano,3,0,Ford Motor Company (Ford); Ford,Bronco Sport; Maverick,2021; 2022; 2023; 2024,TRUE,,0.7737321853637695,2026-07-12T22:31:11Z
+15,gpt-5.4-nano,3,0,Shyft Group (Shyft),Utilimaster Velocity,2025,TRUE,,0.5880999565124512,2026-07-12T22:31:12Z
+16,gpt-5.4-nano,3,0,"Forest River, Inc.; Forest River",Puma PUT39DBT,2024; 2025,TRUE,,0.8803632259368896,2026-07-12T22:31:13Z
+17,gpt-5.4-nano,3,0,Thor Motor Coach (TMC),Twist; Dazzle; Tranquility; Sanctuary; Tellaro; Sequence; Freedom Elite Van,2022; 2023; 2024,TRUE,,0.9201791286468506,2026-07-12T22:31:14Z
+18,gpt-5.4-nano,3,0,"Forest River, Inc.; Forest River",Coachmen Concord CNC321DSF,2023; 2024,TRUE,,0.8374621868133545,2026-07-12T22:31:15Z
+19,gpt-5.4-nano,3,0,"Maserati North America, Inc.; Maserati",Grecale; GranTurismo,2023; 2024,TRUE,,1.047928810119629,2026-07-12T22:31:16Z
+20,gpt-5.4-nano,3,0,Honda (American Honda Motor Co.),Acura TLX; Acura MDX; Honda Pilot,2021; 2022; 2023; 2024; 2025,TRUE,,0.9431478977203369,2026-07-12T22:31:17Z
+21,gpt-5.4-nano,3,0,"Forest River, Inc.; Forest River",NOBO; Ibex; RPOD,2025; 2026; 2027,TRUE,,1.1254451274871826,2026-07-12T22:31:18Z
+22,gpt-5.4-nano,3,0,"Volvo Car USA, LLC; Volvo Car",XC40; V90; S90; V90CC; C40; XC60; S60; V60; V60CC; XC90; EC40; EX40,2021; 2022; 2023; 2024; 2025,TRUE,,1.0265090465545654,2026-07-12T22:31:19Z
+23,gpt-5.4-nano,3,0,"BMW of North America, LLC; BMW",X1; X5; X6; X7; XM; 530i; i5; 740i; 760i; i7; 750e,2023; 2024,TRUE,,0.9890780448913574,2026-07-12T22:31:20Z
+24,gpt-5.4-nano,3,0,"Forest River, Inc.; Forest River",Dynamax Europa; Grand Sport GT,2026,TRUE,,0.7796969413757324,2026-07-12T22:31:21Z
+25,gpt-5.4-nano,3,0,E-One Incorporated (E-One),Cyclone N; Typhoon N,2024,TRUE,,0.6320829391479492,2026-07-12T22:31:21Z
+26,gpt-5.4-nano,3,0,Zero Motorcycles Inc. (Zero),DSR/X; DS; DSR; DSRP,2023; 2024,TRUE,,0.872175931930542,2026-07-12T22:31:22Z
+27,gpt-5.4-nano,3,0,"Tesla, Inc.; Tesla",Model S; Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.811119794845581,2026-07-12T22:31:23Z
+28,gpt-5.4-nano,3,0,PACCAR Incorporated (PACCAR),,2021; 2022; 2023; 2024; 2025,TRUE,,1.4506831169128418,2026-07-12T22:31:24Z
+29,gpt-5.4-nano,3,0,Aston Martin The Americas (Aston Martin),DBX,2021; 2022; 2023; 2024,TRUE,,1.1643569469451904,2026-07-12T22:31:26Z
+30,gpt-5.4-nano,3,0,"New Flyer of America, Inc. (New Flyer)",XDE60; XD35; XD40; XD60,2023; 2024,TRUE,,0.8346941471099854,2026-07-12T22:31:26Z
+1,gpt-5.4-nano,4,0,"Forest River, Inc.; Forest River",Salem; Wildwood,2023; 2024,TRUE,,0.7940380573272705,2026-07-12T22:31:27Z
+2,gpt-5.4-nano,4,0,"General Motors, LLC (GM); GM",Express; Savana,2025; 2026,TRUE,,1.0603678226470947,2026-07-12T22:31:28Z
+3,gpt-5.4-nano,4,0,Honda (American Honda Motor Co.),Acura RDX,2025,TRUE,,0.823606014251709,2026-07-12T22:31:29Z
+4,gpt-5.4-nano,4,0,"Daimler Trucks North America, LLC (DTNA)",Freightliner Custom Chassis S2C 106; Freightliner Custom Chassis S2RV 106,2023; 2024; 2025,TRUE,,0.9434239864349365,2026-07-12T22:31:30Z
+5,gpt-5.4-nano,4,0,"International Motors, LLC; International",IC Bus CESB,2026; 2027,TRUE,,0.663769006729126,2026-07-12T22:31:31Z
+6,gpt-5.4-nano,4,0,"Hino Motors Sales U.S.A., Inc.; Hino",NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.8092029094696045,2026-07-12T22:31:32Z
+7,gpt-5.4-nano,4,0,Volvo Trucks North America (Volvo Trucks),VNR (4); VNL (4),2025; 2026; 2027,TRUE,,0.8983240127563477,2026-07-12T22:31:32Z
+8,gpt-5.4-nano,4,0,"Volkswagen Group of America, Inc. (Audi)",SQ6 e-tron; Q6 e-tron,2025,TRUE,,0.7192668914794922,2026-07-12T22:31:33Z
+9,gpt-5.4-nano,4,0,"BMW of North America, LLC; BMW",740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024,TRUE,,1.040229082107544,2026-07-12T22:31:34Z
+10,gpt-5.4-nano,4,0,Bombardier Recreational Products (BRP),Can-Am Origin; Pulse,2025,TRUE,,0.8861410617828369,2026-07-12T22:31:35Z
+11,gpt-5.4-nano,4,0,Ford Motor Company (Ford); Ford,Bronco Sport,2024,TRUE,,0.8135359287261963,2026-07-12T22:31:36Z
+12,gpt-5.4-nano,4,0,Ford Motor Company (Ford); Ford,F-150,2024,TRUE,,0.7518901824951172,2026-07-12T22:31:37Z
+13,gpt-5.4-nano,4,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024,TRUE,,1.0856437683105469,2026-07-12T22:31:38Z
+14,gpt-5.4-nano,4,0,Ford Motor Company; Ford,Bronco Sport; Maverick,2021; 2022; 2023; 2024,TRUE,,1.050407886505127,2026-07-12T22:31:39Z
+15,gpt-5.4-nano,4,0,Shyft Group (Shyft),Utilimaster Velocity,2025,TRUE,,0.514585018157959,2026-07-12T22:31:39Z
+16,gpt-5.4-nano,4,0,"Forest River, Inc.; Forest River",Puma PUT39DBT,2024; 2025,TRUE,,2.0419209003448486,2026-07-12T22:31:41Z
+17,gpt-5.4-nano,4,0,Thor Motor Coach (TMC),Twist; Dazzle; Tranquility; Sanctuary; Tellaro; Sequence; Freedom Elite Van,2022; 2023; 2024,TRUE,,0.8643980026245117,2026-07-12T22:31:42Z
+18,gpt-5.4-nano,4,0,"Forest River, Inc.; Forest River",Coachmen Concord CNC321DSF,2023; 2024,TRUE,,0.6453309059143066,2026-07-12T22:31:43Z
+19,gpt-5.4-nano,4,0,"Maserati North America, Inc.; Maserati",Grecale; GranTurismo,2023; 2024,TRUE,,0.7527399063110352,2026-07-12T22:31:44Z
+20,gpt-5.4-nano,4,0,Honda (American Honda Motor Co.),Acura TLX; Acura MDX; Honda Pilot,2021; 2022; 2023; 2024; 2025,TRUE,,0.8315160274505615,2026-07-12T22:31:45Z
+21,gpt-5.4-nano,4,0,"Forest River, Inc.; Forest River",NOBO; Ibex; RPOD,2025; 2026; 2027,TRUE,,1.13798189163208,2026-07-12T22:31:46Z
+22,gpt-5.4-nano,4,0,"Volvo Car USA, LLC; Volvo Car",XC40; V90; S90; V90CC; C40; XC60; S60; V60; V60CC; XC90; EC40; EX40,2021; 2022; 2023; 2024; 2025,TRUE,,1.1634058952331543,2026-07-12T22:31:47Z
+23,gpt-5.4-nano,4,0,"BMW of North America, LLC; BMW",X1; X5; X6; X7; XM; 530i; i5; 740i; 760i; i7; 750e,2023; 2024,TRUE,,1.277721881866455,2026-07-12T22:31:48Z
+24,gpt-5.4-nano,4,0,"Forest River, Inc.; Forest River",Dynamax Europa; Grand Sport GT,2026,TRUE,,0.7705249786376953,2026-07-12T22:31:49Z
+25,gpt-5.4-nano,4,0,E-One Incorporated (E-One),Cyclone N; Typhoon N,2024,TRUE,,0.9331059455871582,2026-07-12T22:31:50Z
+26,gpt-5.4-nano,4,0,Zero Motorcycles Inc. (Zero),DSR/X; DS; DSR; DSRP,2023; 2024,TRUE,,0.9239790439605713,2026-07-12T22:31:51Z
+27,gpt-5.4-nano,4,0,"Tesla, Inc.; Tesla",Model S; Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.7849678993225098,2026-07-12T22:31:52Z
+28,gpt-5.4-nano,4,0,PACCAR Incorporated (PACCAR),,2021; 2022; 2023; 2024; 2025,TRUE,,0.795996904373169,2026-07-12T22:31:52Z
+29,gpt-5.4-nano,4,0,Aston Martin The Americas (Aston Martin); Aston Martin,DBX,2021; 2022; 2023; 2024,TRUE,,0.8162260055541992,2026-07-12T22:31:53Z
+30,gpt-5.4-nano,4,0,"New Flyer of America, Inc. (New Flyer)",XDE60; XD35; XD40; XD60,2023; 2024,TRUE,,0.7263610363006592,2026-07-12T22:31:54Z
+1,gpt-5.4-nano,5,0,"Forest River, Inc.; Forest River",Salem; Wildwood,2023; 2024,TRUE,,0.7736291885375977,2026-07-12T22:31:55Z
+2,gpt-5.4-nano,5,0,"General Motors, LLC (GM); GM",Express; Savana,2025; 2026,TRUE,,1.16615891456604,2026-07-12T22:31:56Z
+3,gpt-5.4-nano,5,0,Honda (American Honda Motor Co.),Acura RDX,2025,TRUE,,0.6776881217956543,2026-07-12T22:31:57Z
+4,gpt-5.4-nano,5,0,"Daimler Trucks North America, LLC (DTNA)",Freightliner Custom Chassis S2C 106; Freightliner Custom Chassis S2RV 106,2023; 2024; 2025,TRUE,,0.8403210639953613,2026-07-12T22:31:57Z
+5,gpt-5.4-nano,5,0,"International Motors, LLC; International",IC Bus CESB,2026; 2027,TRUE,,0.768028974533081,2026-07-12T22:31:58Z
+6,gpt-5.4-nano,5,0,"Hino Motors Sales U.S.A., Inc.; Hino",NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.9392712116241455,2026-07-12T22:31:59Z
+7,gpt-5.4-nano,5,0,Volvo Trucks North America (Volvo Trucks),VNR (4); VNL (4),2025; 2026; 2027,TRUE,,0.8068239688873291,2026-07-12T22:32:00Z
+8,gpt-5.4-nano,5,0,"Volkswagen Group of America, Inc. (Audi)",SQ6 e-tron; Q6 e-tron,2025,TRUE,,0.8183779716491699,2026-07-12T22:32:01Z
+9,gpt-5.4-nano,5,0,"BMW of North America, LLC (BMW)",740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024,TRUE,,1.3296120166778564,2026-07-12T22:32:02Z
+10,gpt-5.4-nano,5,0,Bombardier Recreational Products (BRP),Can-Am Origin; Pulse,2025,TRUE,,0.6688659191131592,2026-07-12T22:32:03Z
+11,gpt-5.4-nano,5,0,Ford Motor Company (Ford); Ford,Bronco Sport,2024,TRUE,,0.8507058620452881,2026-07-12T22:32:04Z
+12,gpt-5.4-nano,5,0,Ford Motor Company (Ford); Ford,F-150,2024,TRUE,,0.6954190731048584,2026-07-12T22:32:04Z
+13,gpt-5.4-nano,5,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014; 2015; 2016; 2017; 2018; 2013; 2019; 2020; 2021; 2022; 2023; 2024,TRUE,,1.109694004058838,2026-07-12T22:32:06Z
+14,gpt-5.4-nano,5,0,Ford Motor Company (Ford),Bronco Sport; Maverick,2021; 2022; 2023; 2024,TRUE,,2.6904029846191406,2026-07-12T22:32:08Z
+15,gpt-5.4-nano,5,0,Shyft Group (Shyft),Utilimaster Velocity,2025,TRUE,,0.7181591987609863,2026-07-12T22:32:09Z
+16,gpt-5.4-nano,5,0,"Forest River, Inc.; Forest River",Puma PUT39DBT,2024; 2025,TRUE,,0.9259870052337646,2026-07-12T22:32:10Z
+17,gpt-5.4-nano,5,0,Thor Motor Coach (TMC),Twist; Dazzle; Tranquility; Sanctuary; Tellaro; Sequence; Freedom Elite Van,2022; 2023; 2024,TRUE,,0.8005201816558838,2026-07-12T22:32:11Z
+18,gpt-5.4-nano,5,0,"Forest River, Inc.; Forest River",Coachmen Concord CNC321DSF,2023; 2024,TRUE,,0.7359728813171387,2026-07-12T22:32:11Z
+19,gpt-5.4-nano,5,0,"Maserati North America, Inc.; Maserati",Grecale; GranTurismo,2023; 2024,TRUE,,0.8296141624450684,2026-07-12T22:32:12Z
+20,gpt-5.4-nano,5,0,Honda (American Honda Motor Co.),Acura TLX; Acura MDX; Honda Pilot,2021; 2022; 2023; 2024; 2025,TRUE,,0.7724549770355225,2026-07-12T22:32:13Z
+21,gpt-5.4-nano,5,0,"Forest River, Inc.; Forest River",NOBO; Ibex; RPOD,2025; 2026; 2027,TRUE,,0.9818739891052246,2026-07-12T22:32:14Z
+22,gpt-5.4-nano,5,0,"Volvo Car USA, LLC; Volvo Car",XC40; V90; S90; V90CC; C40; XC60; S60; V60; V60CC; XC90; EC40; EX40,2021; 2022; 2023; 2024; 2025,TRUE,,0.8713910579681396,2026-07-12T22:32:15Z
+23,gpt-5.4-nano,5,0,"BMW of North America, LLC; BMW",X1; X5; X6; X7; XM; 530i; i5; 740i; 760i; i7; 750e,2023; 2024,TRUE,,1.0648870468139648,2026-07-12T22:32:16Z
+24,gpt-5.4-nano,5,0,"Forest River, Inc.; Forest River",Dynamax Europa; Grand Sport GT,2026,TRUE,,0.7407481670379639,2026-07-12T22:32:17Z
+25,gpt-5.4-nano,5,0,E-One Incorporated (E-One),Cyclone N; Typhoon N,2024,TRUE,,3.8856542110443115,2026-07-12T22:32:21Z
+26,gpt-5.4-nano,5,0,Zero Motorcycles Inc. (Zero),DSR/X; DS; DSR; DSRP,2023; 2024,TRUE,,2.178581953048706,2026-07-12T22:32:23Z
+27,gpt-5.4-nano,5,0,"Tesla, Inc.; Tesla",Model S; Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.8491120338439941,2026-07-12T22:32:24Z
+28,gpt-5.4-nano,5,0,PACCAR Incorporated (PACCAR),,2021; 2022; 2023; 2024; 2025,TRUE,,0.7126579284667969,2026-07-12T22:32:24Z
+29,gpt-5.4-nano,5,0,Aston Martin The Americas (Aston Martin),DBX,2021; 2022; 2023; 2024,TRUE,,0.9224090576171875,2026-07-12T22:32:25Z
+30,gpt-5.4-nano,5,0,"New Flyer of America, Inc. (New Flyer)",XDE60; XD35; XD40; XD60,2023; 2024,TRUE,,0.8508858680725098,2026-07-12T22:32:26Z

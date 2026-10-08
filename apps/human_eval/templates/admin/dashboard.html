@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}Admin{% endblock %}
+
+{% block header_nav %}
+<a href="/admin/export">Export CSV</a>
+<a href="/admin/logout">Log Out</a>
+{% endblock %}
+
+{% block content %}
+{% if generated_url %}
+<div class="success-card">
+  <p><strong>Review link created for {{ token_reviewer }}:</strong></p>
+  <div class="copy-url-container">
+    <input type="text" class="form-control" value="{{ generated_url }}" readonly onclick="this.select()">
+    <button type="button" class="btn btn-secondary btn-copy">Copy</button>
+  </div>
+</div>
+{% endif %}
+
+<div class="card">
+  <h3>Create a reviewer link</h3>
+  <p style="color: #666; font-size: 0.9rem;">Each link gets its own randomized, balanced presentation
+     order (two blocks; every document once per block; models blinded and position-balanced).</p>
+  <form method="post" action="/admin/create-token" style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end;">
+    <div class="form-group" style="flex: 1; min-width: 200px; margin-bottom: 0;">
+      <label for="reviewer_name">Reviewer name</label>
+      <input type="text" id="reviewer_name" name="reviewer_name" class="form-control" required>
+    </div>
+    <div class="form-group" style="flex: 1; min-width: 200px; margin-bottom: 0;">
+      <label for="reviewer_email">Email (optional)</label>
+      <input type="email" id="reviewer_email" name="reviewer_email" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Generate Link</button>
+  </form>
+</div>
+
+<div class="card">
+  <h3>Reviewers</h3>
+  {% if tokens %}
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Reviewer</th>
+        <th>Progress</th>
+        <th>Status</th>
+        <th>Created</th>
+        <th>Link</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for t in tokens %}
+      <tr>
+        <td>
+          {{ t.reviewer_name }}
+          {% if t.reviewer_email %}<br><span style="color: #888; font-size: 0.85rem;">{{ t.reviewer_email }}</span>{% endif %}
+        </td>
+        <td>
+          {{ t.rated }}/{{ t.total }} ({{ t.pct }}%)
+          <div class="progress-bar-container" style="height: 8px; margin: 4px 0 0; max-width: 140px;">
+            <div class="progress-bar-fill" style="width: {{ t.pct }}%;"></div>
+          </div>
+        </td>
+        <td>
+          {% if t.completed_at %}<span class="status-reviewed">Completed</span>
+          {% elif not t.is_active %}<span class="status-pending">Deactivated</span>
+          {% elif t.rated > 0 %}<span>In progress</span>
+          {% else %}<span class="status-pending">Not started</span>{% endif %}
+        </td>
+        <td style="white-space: nowrap;">{{ t.created_at.strftime('%Y-%m-%d') }}</td>
+        <td>
+          <div class="copy-url-container" style="max-width: 260px;">
+            <input type="text" class="form-control" style="font-size: 0.75rem; padding: 4px 8px;"
+                   value="{{ base_url }}/review/{{ t.token }}" readonly onclick="this.select()">
+            <button type="button" class="btn btn-secondary btn-sm btn-copy">Copy</button>
+          </div>
+        </td>
+        <td>
+          {% if t.is_active %}
+          <form method="post" action="/admin/deactivate/{{ t.id }}" style="display: inline;">
+            <button type="submit" class="btn btn-danger btn-sm">Deactivate</button>
+          </form>
+          {% else %}
+          <form method="post" action="/admin/reactivate/{{ t.id }}" style="display: inline;">
+            <button type="submit" class="btn btn-secondary btn-sm">Reactivate</button>
+          </form>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p style="color: #888;">No reviewer links yet. Create one above.</p>
+  {% endif %}
+</div>
+{% endblock %}

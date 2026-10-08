@@ -1,0 +1,8 @@
+model_name,n_documents,n_extractions,n_success,n_manufacturer_consistent_docs,n_models_consistent_docs,n_model_years_consistent_docs,n_fully_consistent_docs,prop_fully_consistent_docs,mean_full_extraction_n_matching
+gemma4:e2b,30,150,150,30,30,30,30,1,5
+granite4.1:3b,30,150,135,27,27,27,27,0.9,4.5
+llama3.2:1b,30,150,150,29,28,28,27,0.9,4.766666666666667
+gpt-5.4-nano,30,150,150,27,29,29,25,0.8333333333333334,4.666666666666667
+llama3.2:3b,30,150,150,30,30,20,20,0.6666666666666666,3.3333333333333335
+granite4.1:8b,30,150,150,30,28,18,18,0.6,3.3
+phi4-mini,30,150,150,29,26,15,14,0.4666666666666667,3.1333333333333333

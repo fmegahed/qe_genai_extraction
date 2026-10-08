@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block title %}Extraction {{ position }} of {{ total_items }}{% endblock %}
+{% block content_class %}narrow{% endblock %}
+
+{% block content %}
+<!-- Progress -->
+<div style="margin-bottom: 16px;">
+  <div class="progress-bar-container">
+    <div class="progress-bar-fill" style="width: {{ progress_pct }}%;"></div>
+  </div>
+  <p class="progress-text">Extraction {{ position }} of {{ total_items }} &middot; {{ rated_count }} completed</p>
+  <div class="dot-strip">
+    {% for pos in range(1, total_items + 1) %}
+    <a href="/review/{{ token }}/item/{{ pos }}"
+       class="dot {% if pos in rated_positions %}done{% endif %} {% if pos == position %}current{% endif %}"
+       title="Extraction {{ pos }}{% if pos in rated_positions %} (completed){% endif %}"></a>
+    {% if pos == block_size %}<span class="dot-divider" title="Halfway point"></span>{% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Recall text -->
+<div class="card recall-card">
+  <div class="recall-label">Recall description</div>
+  <p class="recall-text">{{ recall_text }}</p>
+</div>
+
+<!-- Rating form -->
+<form id="review-form" method="post" action="/review/{{ token }}/item/{{ position }}">
+  {% for field in fields %}
+  <div class="field-card" data-field="{{ field.key }}">
+    <div class="field-label">{{ field.question }}</div>
+    <div class="field-value">
+      <ul class="value-parts">
+        {% for part in field.parts %}
+        <li>{{ part }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="likert-scale">
+      <div class="likert-anchor-labels">
+        {% for val in range(1, 6) %}
+        <span data-definition="{{ anchors[val].definition }}">{{ anchors[val].label }}</span>
+        {% endfor %}
+      </div>
+      <div class="likert-options">
+        {% for val in range(1, 6) %}
+        <label class="likert-option" data-definition="{{ anchors[val].definition }}">
+          <input type="radio" name="{{ field.key }}_rating" value="{{ val }}"
+                 {% if field.existing_rating == val %}checked{% endif %}>
+          <span class="likert-dot">{{ val }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      <div class="likert-definition-hint">Hover over a label or rating to see its full definition.</div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="nav-row">
+    {% if position > 1 %}
+    <a href="/review/{{ token }}/item/{{ position - 1 }}" class="btn btn-secondary">&larr; Previous</a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    <button type="submit" class="btn btn-primary" style="flex: 1; max-width: 320px;">
+      {% if existing %}Update &amp; Continue{% else %}Save &amp; Continue{% endif %} &rarr;
+    </button>
+    {% if position < total_items %}
+    <a href="/review/{{ token }}/item/{{ position + 1 }}" class="btn btn-secondary">Skip &rarr;</a>
+    {% else %}
+    <span></span>
+    {% endif %}
+  </div>
+
+  <p class="kbd-hint">
+    Shortcuts: <kbd>1</kbd>&ndash;<kbd>5</kbd> rate the highlighted field &middot;
+    <kbd>Enter</kbd> save &amp; continue
+  </p>
+</form>
+
+<details class="scale-details">
+  <summary>Show the full 1&ndash;5 scale definitions and judging tips</summary>
+  <table class="scale-table" style="margin-top: 10px;">
+    <thead><tr><th>Score</th><th>Anchor</th><th>Definition</th></tr></thead>
+    <tbody>
+      {% for val in range(1, 6) %}
+      <tr><td>{{ val }}</td><td>{{ anchors[val].label }}</td><td>{{ anchors[val].definition }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p style="font-size: 0.85rem; color: #555; margin-top: 10px; line-height: 1.6;">
+    <strong>Judging tips:</strong> focus on content, not formatting. The same entity given in
+    two forms (e.g., "Ford Motor Company; Ford") is not an error in itself. Rate each field
+    only on its own information; years appearing inside a model name (e.g., "2026 NV7G")
+    count under Model Years, not against Models.
+  </p>
+</details>
+{% endblock %}

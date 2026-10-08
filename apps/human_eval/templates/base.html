@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Recall Extraction Review{% endblock %} - QE GenAI Study</title>
+  <link rel="icon" type="image/jpeg" href="/static/logo.jpg">
+  <link rel="stylesheet" href="/static/miami-theme.css?v=1">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="logo-container">
+        <img src="/static/logo.jpg" alt="Logo">
+        <div>
+          <h1 class="app-title">Recall Extraction Review</h1>
+          <p class="app-subtitle">Human Evaluation of AI-Extracted Vehicle Recall Data</p>
+        </div>
+      </div>
+      <nav class="header-nav">
+        {% block header_nav %}{% endblock %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content {% block content_class %}{% endblock %}">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="app-footer">
+    <p>QE GenAI Study | <a href="https://miamioh.edu">Miami University</a>, <a href="https://udayton.edu">University of Dayton</a> and <a href="https://www.uva.nl/en">University of Amsterdam</a></p>
+  </footer>
+
+  <script src="/static/review.js?v=1"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

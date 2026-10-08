@@ -1,0 +1,206 @@
+document_id,model_name,repeat_id,temperature,manufacturer,models,model_years,success,error_message,runtime_sec,chat_timestamp
+1,granite4.1:3b,1,0,"Forest River, Inc.",2023-2024 Salem; 2023-2024 Wildwood,2023; 2024,TRUE,,4.1040098667144775,2026-07-12T05:18:19Z
+2,granite4.1:3b,1,0,"General Motors, LLC (GM)",2025-2026 Express; 2025-2026 Savana,"> 2024], ",TRUE,,0.6609251499176025,2026-07-12T05:18:20Z
+3,granite4.1:3b,1,0,Honda,2025 Acura RDX,2025,TRUE,,0.5815689563751221,2026-07-12T05:18:21Z
+4,granite4.1:3b,1,0,"Daimler Trucks North America, LLC (DTNA)",2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106,2023; 2024; 2025; 2024-2025 (combined) for S2RV 106 models; 2023-2024 for S2C 106 models; 2024-2025 for both models combined range; 2023-2025 overall span for both models combined; 2023-2025 inclusive period for both models combined; 2023-2025 continuous range for both models combined; 2023-2025 overlapping period for both models combined; 2023-2025 simultaneous production period for both models combined; 2023-2025 concurrent manufacturing window for both models combined; 2023-2025 parallel production timeline for both models combined; 2023-2025 identical recall scope for both models combined; 2023-2025 unified recall initiative for both models combined; 2023-2025 joint recall campaign for both models combined; 2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106; Freightliner Custom Chassis S2C 106 (2023-2024); Freightliner Custom Chassis S2RV 106 (2024-2025),TRUE,,305.7142560482025,2026-07-12T05:23:26Z
+5,granite4.1:3b,1,0,"International Motors, LLC",IC Bus CESB,2026; 2027,TRUE,,0.5643889904022217,2026-07-12T05:23:27Z
+6,granite4.1:3b,1,0,"Hino Motors Sales U.S.A., Inc.",2026 NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.7454700469970703,2026-07-12T05:23:28Z
+7,granite4.1:3b,1,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300006 milliseconds with 0 bytes received",904.5624721050262,2026-07-12T05:38:32Z
+8,granite4.1:3b,1,0,"Volkswagen Group of America, Inc. (Audi)",2025 SQ6 e-tron; 2025 Q6 e-tron,">=2025], ",TRUE,,0.9215731620788574,2026-07-12T05:38:33Z
+9,granite4.1:3b,1,0,"BMW of North America, LLC (BMW)",2023-2024 740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 2024 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024; 2025+,TRUE,,1.051353931427002,2026-07-12T05:38:34Z
+10,granite4.1:3b,1,0,Bombardier Recreational Products (BRP),2025 Can-Am Origin; 2025 Can-Am Pulse,2025,TRUE,,0.6278941631317139,2026-07-12T05:38:35Z
+11,granite4.1:3b,1,0,Ford Motor Company,2024 Bronco Sport,">=2024], ",TRUE,,0.5643160343170166,2026-07-12T05:38:36Z
+12,granite4.1:3b,1,0,Ford Motor Company,2024 F-150,">=2024], ",TRUE,,0.53569793701171875,2026-07-12T05:38:36Z
+13,granite4.1:3b,1,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014-2018 D4000; 2013-2019 D4005; 2013-2023 D4500; 2013-2020 D4505; 2021-2024 D45CRT,TRUE,,0.9683969020843506,2026-07-12T05:38:37Z
+14,granite4.1:3b,1,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300006 milliseconds with 0 bytes received",904.0811598300934,2026-07-12T05:53:41Z
+15,granite4.1:3b,1,0,Shyft Group,2025 Utilimaster Velocity,2025,TRUE,,1.7926051616668701,2026-07-12T05:53:43Z
+16,granite4.1:3b,1,0,"Forest River, Inc.",Puma PUT39DBT,2024-2025; travel trailers; recall reason: anti-siphon vent may have been installed backwards which can cause sewer gas to enter the vehicle.,TRUE,,0.7588279247283936,2026-07-12T05:53:44Z
+17,granite4.1:3b,1,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300010 milliseconds with 0 bytes received",903.3663311004639,2026-07-12T06:08:47Z
+18,granite4.1:3b,1,0,"Forest River, Inc.",Coachmen Concord CNC321DSF (2023-2024 models),2023; 2024,TRUE,,0.8531148433685303,2026-07-12T06:08:48Z
+19,granite4.1:3b,1,0,"Maserati North America, Inc.",2023-2024 Grecale; 2024 GranTurismo,2023; 2024,TRUE,,0.6510879993438721,2026-07-12T06:08:49Z
+20,granite4.1:3b,1,0,Honda (American Honda Motor Co.),2021-2025 Acura TLX; 2023-2025 Acura MDX; 2023-2025 Honda Pilot,"2021-2025 for Acura TLX and MDX, 2023-2025 for Honda Pilot; Acura TLX: 2021-2025
+Acura MDX: 2023-2025
+Honda Pilot: 2023-2025; Acura TLX (2021–2025), Acura MDX (2023–2025), and Honda Pilot (2023–2025) models affected by the recall.",TRUE,,1.3867499828338623,2026-07-12T06:08:50Z
+21,granite4.1:3b,1,0,"Forest River, Inc.",NOBO; Ibex; RPOD,2025; 2026; 2027 (up to),TRUE,,0.6664488315582275,2026-07-12T06:08:51Z
+22,granite4.1:3b,1,0,"Volvo Car USA, LLC (Volvo Car)",2021-2025 XC40; 2022 V90; 2022-2025 S90; V90CC; C40; XC60; 2023-2025 S60; V60; V60CC; XC90; 2025 EC40 and EX40,"2021-2025 for most models; 2022 for V90; 2022-2025 for S90, V90CC, C40, XC60, S60, V60, XC90; 2025 for EC40 and EX40; V90CC only in 2022; C40 only in 2022; XC60 only in 2023-2025; S60 only in 2023-2025; V60 only in 2023-2025; V60CC only in 2023-2025; XC90 only in 2023-2025; EC40 and EX40 only in 2025; ",TRUE,,1.9274699687957764,2026-07-12T06:08:53Z
+23,granite4.1:3b,1,0,BMW,"2023-2024 X1, X5, X6, X7, XM; 530i, i5, 740i, 760i, i7, 750e","2023-2024 for the first set of models; all model years for the second set (530i, i5, 740i, 760i, i7, 750e) as indicated in the original statement.",TRUE,,1.009016990661621,2026-07-12T06:08:54Z
+24,granite4.1:3b,1,0,"Forest River, Inc.",2026 Dynamax Europa; 2026 Grand Sport GT,2026,TRUE,,0.5834629535675049,2026-07-12T06:08:54Z
+25,granite4.1:3b,1,0,E-One Incorporated,2024 Cyclone N; 2024 Typhoon N,2024,TRUE,,0.5858612060546875,2026-07-12T06:08:55Z
+26,granite4.1:3b,1,0,Zero Motorcycles Inc.,2023-2024 DSR/X; 2024 DS; DSR; DSRP,2023; 2024,TRUE,,0.7192461490631104,2026-07-12T06:08:56Z
+27,granite4.1:3b,1,0,"Tesla, Inc.",2021-2025 Model S; 2021-2025 Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.6999650001525879,2026-07-12T06:08:56Z
+28,granite4.1:3b,1,0,PACCAR Incorporated,2021-2025 Peterbilt vehicles; 2021-2025 Kenworth vehicles,2021; 2022; 2023; 2024; 2025,TRUE,,0.707042932510376,2026-07-12T06:08:57Z
+29,granite4.1:3b,1,0,Aston Martin,DBX (2021-2024); year_range_2021_to_2024,2021; 2022; 2023; 2024,TRUE,,0.7010459899902344,2026-07-12T06:08:58Z
+30,granite4.1:3b,1,0,"New Flyer of America, Inc.",2023-2024 XDE60; 2024 XD35; XD40; XD60,2023; 2024,TRUE,,0.7130739688873291,2026-07-12T06:08:58Z
+1,granite4.1:3b,2,0,"Forest River, Inc.",2023-2024 Salem; 2023-2024 Wildwood,2023; 2024,TRUE,,0.6267459392547607,2026-07-12T06:08:59Z
+2,granite4.1:3b,2,0,"General Motors, LLC (GM)",2025-2026 Express; 2025-2026 Savana,"> 2024], ",TRUE,,0.6482360363006592,2026-07-12T06:09:00Z
+3,granite4.1:3b,2,0,Honda,2025 Acura RDX,2025,TRUE,,0.5488109588623047,2026-07-12T06:09:00Z
+4,granite4.1:3b,2,0,"Daimler Trucks North America, LLC (DTNA)",2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106,2023; 2024; 2025; 2024-2025 (combined) for S2RV 106 models; 2023-2024 for S2C 106 models; 2024-2025 for both models combined range; 2023-2025 overall span for both models combined; 2023-2025 inclusive period for both models combined; 2023-2025 continuous range for both models combined; 2023-2025 overlapping period for both models combined; 2023-2025 simultaneous production period for both models combined; 2023-2025 concurrent manufacturing window for both models combined; 2023-2025 parallel production timeline for both models combined; 2023-2025 identical recall scope for both models combined; 2023-2025 unified recall initiative for both models combined; 2023-2025 joint recall campaign for both models combined; 2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106; Freightliner Custom Chassis S2C 106 (2023-2024); Freightliner Custom Chassis S2RV 106 (2024-2025),TRUE,,305.43166303634644,2026-07-12T06:14:06Z
+5,granite4.1:3b,2,0,"International Motors, LLC",IC Bus CESB,2026; 2027,TRUE,,0.6022448539733887,2026-07-12T06:14:06Z
+6,granite4.1:3b,2,0,"Hino Motors Sales U.S.A., Inc.",2026 NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.7551910877227783,2026-07-12T06:14:07Z
+7,granite4.1:3b,2,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300010 milliseconds with 0 bytes received",902.3461480140686,2026-07-12T06:29:09Z
+8,granite4.1:3b,2,0,"Volkswagen Group of America, Inc. (Audi)",2025 SQ6 e-tron; 2025 Q6 e-tron,">=2025], ",TRUE,,1.6364030838012695,2026-07-12T06:29:11Z
+9,granite4.1:3b,2,0,"BMW of North America, LLC (BMW)",2023-2024 740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 2024 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024; 2025+,TRUE,,1.084144115447998,2026-07-12T06:29:12Z
+10,granite4.1:3b,2,0,Bombardier Recreational Products (BRP),2025 Can-Am Origin; 2025 Can-Am Pulse,2025,TRUE,,0.6540670394897461,2026-07-12T06:29:13Z
+11,granite4.1:3b,2,0,Ford Motor Company,2024 Bronco Sport,">=2024], ",TRUE,,0.5571739673614502,2026-07-12T06:29:13Z
+12,granite4.1:3b,2,0,Ford Motor Company,2024 F-150,">=2024], ",TRUE,,0.5730409622192383,2026-07-12T06:29:14Z
+13,granite4.1:3b,2,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014-2018 D4000; 2013-2019 D4005; 2013-2023 D4500; 2013-2020 D4505; 2021-2024 D45CRT,TRUE,,0.9446821212768555,2026-07-12T06:29:15Z
+14,granite4.1:3b,2,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300007 milliseconds with 0 bytes received",902.7613151073456,2026-07-12T06:44:18Z
+15,granite4.1:3b,2,0,Shyft Group,2025 Utilimaster Velocity,2025,TRUE,,0.8520200252532959,2026-07-12T06:44:18Z
+16,granite4.1:3b,2,0,"Forest River, Inc.",Puma PUT39DBT,2024-2025; travel trailers; recall reason: anti-siphon vent may have been installed backwards which can cause sewer gas to enter the vehicle.,TRUE,,0.7640380859375,2026-07-12T06:44:19Z
+17,granite4.1:3b,2,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300007 milliseconds with 0 bytes received",905.1509130001068,2026-07-12T06:59:24Z
+18,granite4.1:3b,2,0,"Forest River, Inc.",Coachmen Concord CNC321DSF (2023-2024 models),2023; 2024,TRUE,,0.8482279777526855,2026-07-12T06:59:25Z
+19,granite4.1:3b,2,0,"Maserati North America, Inc.",2023-2024 Grecale; 2024 GranTurismo,2023; 2024,TRUE,,0.6535289287567139,2026-07-12T06:59:26Z
+20,granite4.1:3b,2,0,Honda (American Honda Motor Co.),2021-2025 Acura TLX; 2023-2025 Acura MDX; 2023-2025 Honda Pilot,"2021-2025 for Acura TLX and MDX, 2023-2025 for Honda Pilot; Acura TLX: 2021-2025
+Acura MDX: 2023-2025
+Honda Pilot: 2023-2025; Acura TLX (2021–2025), Acura MDX (2023–2025), and Honda Pilot (2023–2025) models affected by the recall.",TRUE,,1.4139490127563477,2026-07-12T06:59:27Z
+21,granite4.1:3b,2,0,"Forest River, Inc.",NOBO; Ibex; RPOD,2025; 2026; 2027 (up to),TRUE,,0.6748089790344238,2026-07-12T06:59:28Z
+22,granite4.1:3b,2,0,"Volvo Car USA, LLC (Volvo Car)",2021-2025 XC40; 2022 V90; 2022-2025 S90; V90CC; C40; XC60; 2023-2025 S60; V60; V60CC; XC90; 2025 EC40 and EX40,"2021-2025 for most models; 2022 for V90; 2022-2025 for S90, V90CC, C40, XC60, S60, V60, XC90; 2025 for EC40 and EX40; V90CC only in 2022; C40 only in 2022; XC60 only in 2023-2025; S60 only in 2023-2025; V60 only in 2023-2025; V60CC only in 2023-2025; XC90 only in 2023-2025; EC40 and EX40 only in 2025; ",TRUE,,1.9063799381256104,2026-07-12T06:59:30Z
+23,granite4.1:3b,2,0,BMW,"2023-2024 X1, X5, X6, X7, XM; 530i, i5, 740i, 760i, i7, 750e","2023-2024 for the first set of models; all model years for the second set (530i, i5, 740i, 760i, i7, 750e) as indicated in the original statement.",TRUE,,1.0027940273284912,2026-07-12T06:59:31Z
+24,granite4.1:3b,2,0,"Forest River, Inc.",2026 Dynamax Europa; 2026 Grand Sport GT,2026,TRUE,,0.5969099998474121,2026-07-12T06:59:32Z
+25,granite4.1:3b,2,0,E-One Incorporated,2024 Cyclone N; 2024 Typhoon N,2024,TRUE,,0.583906888961792,2026-07-12T06:59:32Z
+26,granite4.1:3b,2,0,Zero Motorcycles Inc.,2023-2024 DSR/X; 2024 DS; DSR; DSRP,2023; 2024,TRUE,,0.6912839412689209,2026-07-12T06:59:33Z
+27,granite4.1:3b,2,0,"Tesla, Inc.",2021-2025 Model S; 2021-2025 Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.7046689987182617,2026-07-12T06:59:34Z
+28,granite4.1:3b,2,0,PACCAR Incorporated,2021-2025 Peterbilt vehicles; 2021-2025 Kenworth vehicles,2021; 2022; 2023; 2024; 2025,TRUE,,0.716386079788208,2026-07-12T06:59:34Z
+29,granite4.1:3b,2,0,Aston Martin,DBX (2021-2024); year_range_2021_to_2024,2021; 2022; 2023; 2024,TRUE,,0.7026021480560303,2026-07-12T06:59:35Z
+30,granite4.1:3b,2,0,"New Flyer of America, Inc.",2023-2024 XDE60; 2024 XD35; XD40; XD60,2023; 2024,TRUE,,0.69626617431640625,2026-07-12T06:59:36Z
+1,granite4.1:3b,3,0,"Forest River, Inc.",2023-2024 Salem; 2023-2024 Wildwood,2023; 2024,TRUE,,0.6307189464569092,2026-07-12T06:59:36Z
+2,granite4.1:3b,3,0,"General Motors, LLC (GM)",2025-2026 Express; 2025-2026 Savana,"> 2024], ",TRUE,,0.6986269950866699,2026-07-12T06:59:37Z
+3,granite4.1:3b,3,0,Honda,2025 Acura RDX,2025,TRUE,,0.5472698211669922,2026-07-12T06:59:38Z
+4,granite4.1:3b,3,0,"Daimler Trucks North America, LLC (DTNA)",2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106,2023; 2024; 2025; 2024-2025 (combined) for S2RV 106 models; 2023-2024 for S2C 106 models; 2024-2025 for both models combined range; 2023-2025 overall span for both models combined; 2023-2025 inclusive period for both models combined; 2023-2025 continuous range for both models combined; 2023-2025 overlapping period for both models combined; 2023-2025 simultaneous production period for both models combined; 2023-2025 concurrent manufacturing window for both models combined; 2023-2025 parallel production timeline for both models combined; 2023-2025 identical recall scope for both models combined; 2023-2025 unified recall initiative for both models combined; 2023-2025 joint recall campaign for both models combined; 2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106; Freightliner Custom Chassis S2C 106 (2023-2024); Freightliner Custom Chassis S2RV 106 (2024-2025),TRUE,,305.0826690196991,2026-07-12T07:04:43Z
+5,granite4.1:3b,3,0,"International Motors, LLC",IC Bus CESB,2026; 2027,TRUE,,0.6366260051727295,2026-07-12T07:04:43Z
+6,granite4.1:3b,3,0,"Hino Motors Sales U.S.A., Inc.",2026 NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.7791650295257568,2026-07-12T07:04:44Z
+7,granite4.1:3b,3,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300011 milliseconds with 0 bytes received",904.0617558956146,2026-07-12T07:19:48Z
+8,granite4.1:3b,3,0,"Volkswagen Group of America, Inc. (Audi)",2025 SQ6 e-tron; 2025 Q6 e-tron,">=2025], ",TRUE,,0.9325761795043945,2026-07-12T07:19:49Z
+9,granite4.1:3b,3,0,"BMW of North America, LLC (BMW)",2023-2024 740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 2024 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024; 2025+,TRUE,,1.1112558841705322,2026-07-12T07:19:50Z
+10,granite4.1:3b,3,0,Bombardier Recreational Products (BRP),2025 Can-Am Origin; 2025 Can-Am Pulse,2025,TRUE,,0.6717469692230225,2026-07-12T07:19:51Z
+11,granite4.1:3b,3,0,Ford Motor Company,2024 Bronco Sport,">=2024], ",TRUE,,0.6872000694274902,2026-07-12T07:19:52Z
+12,granite4.1:3b,3,0,Ford Motor Company,2024 F-150,">=2024], ",TRUE,,0.5381488800048828,2026-07-12T07:19:52Z
+13,granite4.1:3b,3,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014-2018 D4000; 2013-2019 D4005; 2013-2023 D4500; 2013-2020 D4505; 2021-2024 D45CRT,TRUE,,0.9354469776153564,2026-07-12T07:19:53Z
+14,granite4.1:3b,3,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300011 milliseconds with 0 bytes received",905.7417719364166,2026-07-12T07:34:59Z
+15,granite4.1:3b,3,0,Shyft Group,2025 Utilimaster Velocity,2025,TRUE,,0.8032259941101074,2026-07-12T07:35:00Z
+16,granite4.1:3b,3,0,"Forest River, Inc.",Puma PUT39DBT,2024-2025; travel trailers; recall reason: anti-siphon vent may have been installed backwards which can cause sewer gas to enter the vehicle.,TRUE,,0.780454158782959,2026-07-12T07:35:00Z
+17,granite4.1:3b,3,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300009 milliseconds with 0 bytes received",902.9750499725342,2026-07-12T07:50:03Z
+18,granite4.1:3b,3,0,"Forest River, Inc.",Coachmen Concord CNC321DSF (2023-2024 models),2023; 2024,TRUE,,1.5754029750823975,2026-07-12T07:50:05Z
+19,granite4.1:3b,3,0,"Maserati North America, Inc.",2023-2024 Grecale; 2024 GranTurismo,2023; 2024,TRUE,,0.6346712112426758,2026-07-12T07:50:06Z
+20,granite4.1:3b,3,0,Honda (American Honda Motor Co.),2021-2025 Acura TLX; 2023-2025 Acura MDX; 2023-2025 Honda Pilot,"2021-2025 for Acura TLX and MDX, 2023-2025 for Honda Pilot; Acura TLX: 2021-2025
+Acura MDX: 2023-2025
+Honda Pilot: 2023-2025; Acura TLX (2021–2025), Acura MDX (2023–2025), and Honda Pilot (2023–2025) models affected by the recall.",TRUE,,1.379289150238037,2026-07-12T07:50:07Z
+21,granite4.1:3b,3,0,"Forest River, Inc.",NOBO; Ibex; RPOD,2025; 2026; 2027 (up to),TRUE,,0.6614210605621338,2026-07-12T07:50:08Z
+22,granite4.1:3b,3,0,"Volvo Car USA, LLC (Volvo Car)",2021-2025 XC40; 2022 V90; 2022-2025 S90; V90CC; C40; XC60; 2023-2025 S60; V60; V60CC; XC90; 2025 EC40 and EX40,"2021-2025 for most models; 2022 for V90; 2022-2025 for S90, V90CC, C40, XC60, S60, V60, XC90; 2025 for EC40 and EX40; V90CC only in 2022; C40 only in 2022; XC60 only in 2023-2025; S60 only in 2023-2025; V60 only in 2023-2025; V60CC only in 2023-2025; XC90 only in 2023-2025; EC40 and EX40 only in 2025; ",TRUE,,1.9037120342254639,2026-07-12T07:50:10Z
+23,granite4.1:3b,3,0,BMW,"2023-2024 X1, X5, X6, X7, XM; 530i, i5, 740i, 760i, i7, 750e","2023-2024 for the first set of models; all model years for the second set (530i, i5, 740i, 760i, i7, 750e) as indicated in the original statement.",TRUE,,1.012916088104248,2026-07-12T07:50:11Z
+24,granite4.1:3b,3,0,"Forest River, Inc.",2026 Dynamax Europa; 2026 Grand Sport GT,2026,TRUE,,0.5855450630187988,2026-07-12T07:50:11Z
+25,granite4.1:3b,3,0,E-One Incorporated,2024 Cyclone N; 2024 Typhoon N,2024,TRUE,,0.6090619564056396,2026-07-12T07:50:12Z
+26,granite4.1:3b,3,0,Zero Motorcycles Inc.,2023-2024 DSR/X; 2024 DS; DSR; DSRP,2023; 2024,TRUE,,0.6942150592803955,2026-07-12T07:50:12Z
+27,granite4.1:3b,3,0,"Tesla, Inc.",2021-2025 Model S; 2021-2025 Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.7225179672241211,2026-07-12T07:50:13Z
+28,granite4.1:3b,3,0,PACCAR Incorporated,2021-2025 Peterbilt vehicles; 2021-2025 Kenworth vehicles,2021; 2022; 2023; 2024; 2025,TRUE,,0.7284791469573975,2026-07-12T07:50:14Z
+29,granite4.1:3b,3,0,Aston Martin,DBX (2021-2024); year_range_2021_to_2024,2021; 2022; 2023; 2024,TRUE,,0.6932339668273926,2026-07-12T07:50:15Z
+30,granite4.1:3b,3,0,"New Flyer of America, Inc.",2023-2024 XDE60; 2024 XD35; XD40; XD60,2023; 2024,TRUE,,0.6990370750427246,2026-07-12T07:50:15Z
+1,granite4.1:3b,4,0,"Forest River, Inc.",2023-2024 Salem; 2023-2024 Wildwood,2023; 2024,TRUE,,0.6560859680175781,2026-07-12T07:50:16Z
+2,granite4.1:3b,4,0,"General Motors, LLC (GM)",2025-2026 Express; 2025-2026 Savana,"> 2024], ",TRUE,,0.6679649353027344,2026-07-12T07:50:17Z
+3,granite4.1:3b,4,0,Honda,2025 Acura RDX,2025,TRUE,,0.5475690364837646,2026-07-12T07:50:17Z
+4,granite4.1:3b,4,0,"Daimler Trucks North America, LLC (DTNA)",2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106,2023; 2024; 2025; 2024-2025 (combined) for S2RV 106 models; 2023-2024 for S2C 106 models; 2024-2025 for both models combined range; 2023-2025 overall span for both models combined; 2023-2025 inclusive period for both models combined; 2023-2025 continuous range for both models combined; 2023-2025 overlapping period for both models combined; 2023-2025 simultaneous production period for both models combined; 2023-2025 concurrent manufacturing window for both models combined; 2023-2025 parallel production timeline for both models combined; 2023-2025 identical recall scope for both models combined; 2023-2025 unified recall initiative for both models combined; 2023-2025 joint recall campaign for both models combined; 2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106; Freightliner Custom Chassis S2C 106 (2023-2024); Freightliner Custom Chassis S2RV 106 (2024-2025),TRUE,,305.0765287876129,2026-07-12T07:55:22Z
+5,granite4.1:3b,4,0,"International Motors, LLC",IC Bus CESB,2026; 2027,TRUE,,0.620136022567749,2026-07-12T07:55:23Z
+6,granite4.1:3b,4,0,"Hino Motors Sales U.S.A., Inc.",2026 NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.7547740936279297,2026-07-12T07:55:24Z
+7,granite4.1:3b,4,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300011 milliseconds with 0 bytes received",902.7621948719025,2026-07-12T08:10:26Z
+8,granite4.1:3b,4,0,"Volkswagen Group of America, Inc. (Audi)",2025 SQ6 e-tron; 2025 Q6 e-tron,">=2025], ",TRUE,,0.9145588874816895,2026-07-12T08:10:27Z
+9,granite4.1:3b,4,0,"BMW of North America, LLC (BMW)",2023-2024 740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 2024 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024; 2025+,TRUE,,1.0739350318908691,2026-07-12T08:10:28Z
+10,granite4.1:3b,4,0,Bombardier Recreational Products (BRP),2025 Can-Am Origin; 2025 Can-Am Pulse,2025,TRUE,,0.6164309978485107,2026-07-12T08:10:29Z
+11,granite4.1:3b,4,0,Ford Motor Company,2024 Bronco Sport,">=2024], ",TRUE,,0.5551929473876953,2026-07-12T08:10:30Z
+12,granite4.1:3b,4,0,Ford Motor Company,2024 F-150,">=2024], ",TRUE,,0.5308840274810791,2026-07-12T08:10:30Z
+13,granite4.1:3b,4,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014-2018 D4000; 2013-2019 D4005; 2013-2023 D4500; 2013-2020 D4505; 2021-2024 D45CRT,TRUE,,0.9423291683197021,2026-07-12T08:10:31Z
+14,granite4.1:3b,4,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300001 milliseconds with 0 bytes received",903.6562430858612,2026-07-12T08:25:35Z
+15,granite4.1:3b,4,0,Shyft Group,2025 Utilimaster Velocity,2025,TRUE,,0.7962470054626465,2026-07-12T08:25:36Z
+16,granite4.1:3b,4,0,"Forest River, Inc.",Puma PUT39DBT,2024-2025; travel trailers; recall reason: anti-siphon vent may have been installed backwards which can cause sewer gas to enter the vehicle.,TRUE,,0.752316951751709,2026-07-12T08:25:36Z
+17,granite4.1:3b,4,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300009 milliseconds with 0 bytes received",905.1440029144287,2026-07-12T08:40:41Z
+18,granite4.1:3b,4,0,"Forest River, Inc.",Coachmen Concord CNC321DSF (2023-2024 models),2023; 2024,TRUE,,0.8744230270385742,2026-07-12T08:40:42Z
+19,granite4.1:3b,4,0,"Maserati North America, Inc.",2023-2024 Grecale; 2024 GranTurismo,2023; 2024,TRUE,,0.6359870433807373,2026-07-12T08:40:43Z
+20,granite4.1:3b,4,0,Honda (American Honda Motor Co.),2021-2025 Acura TLX; 2023-2025 Acura MDX; 2023-2025 Honda Pilot,"2021-2025 for Acura TLX and MDX, 2023-2025 for Honda Pilot; Acura TLX: 2021-2025
+Acura MDX: 2023-2025
+Honda Pilot: 2023-2025; Acura TLX (2021–2025), Acura MDX (2023–2025), and Honda Pilot (2023–2025) models affected by the recall.",TRUE,,1.397627830505371,2026-07-12T08:40:44Z
+21,granite4.1:3b,4,0,"Forest River, Inc.",NOBO; Ibex; RPOD,2025; 2026; 2027 (up to),TRUE,,0.6719639301300049,2026-07-12T08:40:45Z
+22,granite4.1:3b,4,0,"Volvo Car USA, LLC (Volvo Car)",2021-2025 XC40; 2022 V90; 2022-2025 S90; V90CC; C40; XC60; 2023-2025 S60; V60; V60CC; XC90; 2025 EC40 and EX40,"2021-2025 for most models; 2022 for V90; 2022-2025 for S90, V90CC, C40, XC60, S60, V60, XC90; 2025 for EC40 and EX40; V90CC only in 2022; C40 only in 2022; XC60 only in 2023-2025; S60 only in 2023-2025; V60 only in 2023-2025; V60CC only in 2023-2025; XC90 only in 2023-2025; EC40 and EX40 only in 2025; ",TRUE,,1.9202749729156494,2026-07-12T08:40:47Z
+23,granite4.1:3b,4,0,BMW,"2023-2024 X1, X5, X6, X7, XM; 530i, i5, 740i, 760i, i7, 750e","2023-2024 for the first set of models; all model years for the second set (530i, i5, 740i, 760i, i7, 750e) as indicated in the original statement.",TRUE,,1.0253641605377197,2026-07-12T08:40:48Z
+24,granite4.1:3b,4,0,"Forest River, Inc.",2026 Dynamax Europa; 2026 Grand Sport GT,2026,TRUE,,0.5999269485473633,2026-07-12T08:40:49Z
+25,granite4.1:3b,4,0,E-One Incorporated,2024 Cyclone N; 2024 Typhoon N,2024,TRUE,,0.5873990058898926,2026-07-12T08:40:49Z
+26,granite4.1:3b,4,0,Zero Motorcycles Inc.,2023-2024 DSR/X; 2024 DS; DSR; DSRP,2023; 2024,TRUE,,0.6802890300750732,2026-07-12T08:40:50Z
+27,granite4.1:3b,4,0,"Tesla, Inc.",2021-2025 Model S; 2021-2025 Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.6288609504699707,2026-07-12T08:40:51Z
+28,granite4.1:3b,4,0,PACCAR Incorporated,2021-2025 Peterbilt vehicles; 2021-2025 Kenworth vehicles,2021; 2022; 2023; 2024; 2025,TRUE,,0.7160830497741699,2026-07-12T08:40:51Z
+29,granite4.1:3b,4,0,Aston Martin,DBX (2021-2024); year_range_2021_to_2024,2021; 2022; 2023; 2024,TRUE,,0.703361988067627,2026-07-12T08:40:52Z
+30,granite4.1:3b,4,0,"New Flyer of America, Inc.",2023-2024 XDE60; 2024 XD35; XD40; XD60,2023; 2024,TRUE,,0.7134590148925781,2026-07-12T08:40:53Z
+1,granite4.1:3b,5,0,"Forest River, Inc.",2023-2024 Salem; 2023-2024 Wildwood,2023; 2024,TRUE,,0.6190190315246582,2026-07-12T08:40:53Z
+2,granite4.1:3b,5,0,"General Motors, LLC (GM)",2025-2026 Express; 2025-2026 Savana,"> 2024], ",TRUE,,0.6717917919158936,2026-07-12T08:40:54Z
+3,granite4.1:3b,5,0,Honda,2025 Acura RDX,2025,TRUE,,0.5355949401855469,2026-07-12T08:40:55Z
+4,granite4.1:3b,5,0,"Daimler Trucks North America, LLC (DTNA)",2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106,2023; 2024; 2025; 2024-2025 (combined) for S2RV 106 models; 2023-2024 for S2C 106 models; 2024-2025 for both models combined range; 2023-2025 overall span for both models combined; 2023-2025 inclusive period for both models combined; 2023-2025 continuous range for both models combined; 2023-2025 overlapping period for both models combined; 2023-2025 simultaneous production period for both models combined; 2023-2025 concurrent manufacturing window for both models combined; 2023-2025 parallel production timeline for both models combined; 2023-2025 identical recall scope for both models combined; 2023-2025 unified recall initiative for both models combined; 2023-2025 joint recall campaign for both models combined; 2023-2024 Freightliner Custom Chassis S2C 106; 2024-2025 Freightliner Custom Chassis S2RV 106; Freightliner Custom Chassis S2C 106 (2023-2024); Freightliner Custom Chassis S2RV 106 (2024-2025),TRUE,,304.93717885017395,2026-07-12T08:45:59Z
+5,granite4.1:3b,5,0,"International Motors, LLC",IC Bus CESB,2026; 2027,TRUE,,0.6068391799926758,2026-07-12T08:46:00Z
+6,granite4.1:3b,5,0,"Hino Motors Sales U.S.A., Inc.",2026 NV7G; NV7D; NJ7E; NJ7D; NH7K; NE7D; NH7G,2026,TRUE,,0.7742710113525391,2026-07-12T08:46:01Z
+7,granite4.1:3b,5,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300013 milliseconds with 0 bytes received",904.7496140003204,2026-07-12T09:01:06Z
+8,granite4.1:3b,5,0,"Volkswagen Group of America, Inc. (Audi)",2025 SQ6 e-tron; 2025 Q6 e-tron,">=2025], ",TRUE,,0.9125571250915527,2026-07-12T09:01:07Z
+9,granite4.1:3b,5,0,"BMW of North America, LLC (BMW)",2023-2024 740i; 740i xDrive; 760i xDrive; i7 eDrive50; i7 xDrive60; i7 M70; 2024 750e xDrive; 530i; 530i xDrive; i5 eDrive40; i5 M60,2023; 2024; 2025+,TRUE,,1.05684494972229,2026-07-12T09:01:08Z
+10,granite4.1:3b,5,0,Bombardier Recreational Products (BRP),2025 Can-Am Origin; 2025 Can-Am Pulse,2025,TRUE,,0.6211810111999512,2026-07-12T09:01:08Z
+11,granite4.1:3b,5,0,Ford Motor Company,2024 Bronco Sport,">=2024], ",TRUE,,0.5567970275878906,2026-07-12T09:01:09Z
+12,granite4.1:3b,5,0,Ford Motor Company,2024 F-150,">=2024], ",TRUE,,0.5513441562652588,2026-07-12T09:01:09Z
+13,granite4.1:3b,5,0,Motor Coach Industries (MCI),D4000; D4005; D4500; D4505; D45CRT,2014-2018 D4000; 2013-2019 D4005; 2013-2023 D4500; 2013-2020 D4505; 2021-2024 D45CRT,TRUE,,0.9349920749664307,2026-07-12T09:01:10Z
+14,granite4.1:3b,5,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300004 milliseconds with 0 bytes received",904.2514500617981,2026-07-12T09:16:15Z
+15,granite4.1:3b,5,0,Shyft Group,2025 Utilimaster Velocity,2025,TRUE,,1.5831491947174072,2026-07-12T09:16:16Z
+16,granite4.1:3b,5,0,"Forest River, Inc.",Puma PUT39DBT,2024-2025; travel trailers; recall reason: anti-siphon vent may have been installed backwards which can cause sewer gas to enter the vehicle.,TRUE,,0.7425229549407959,2026-07-12T09:16:17Z
+17,granite4.1:3b,5,0,,,,FALSE,"Failed to perform HTTP request.
+[1mCaused by error in `curl::curl_fetch_memory()`:[22m
+[33m![39m Timeout was reached [localhost]:
+Operation timed out after 300011 milliseconds with 0 bytes received",903.969822883606,2026-07-12T09:31:21Z
+18,granite4.1:3b,5,0,"Forest River, Inc.",Coachmen Concord CNC321DSF (2023-2024 models),2023; 2024,TRUE,,0.84187912940979,2026-07-12T09:31:22Z
+19,granite4.1:3b,5,0,"Maserati North America, Inc.",2023-2024 Grecale; 2024 GranTurismo,2023; 2024,TRUE,,0.6441290378570557,2026-07-12T09:31:22Z
+20,granite4.1:3b,5,0,Honda (American Honda Motor Co.),2021-2025 Acura TLX; 2023-2025 Acura MDX; 2023-2025 Honda Pilot,"2021-2025 for Acura TLX and MDX, 2023-2025 for Honda Pilot; Acura TLX: 2021-2025
+Acura MDX: 2023-2025
+Honda Pilot: 2023-2025; Acura TLX (2021–2025), Acura MDX (2023–2025), and Honda Pilot (2023–2025) models affected by the recall.",TRUE,,1.3711578845977783,2026-07-12T09:31:24Z
+21,granite4.1:3b,5,0,"Forest River, Inc.",NOBO; Ibex; RPOD,2025; 2026; 2027 (up to),TRUE,,0.682196855545044,2026-07-12T09:31:24Z
+22,granite4.1:3b,5,0,"Volvo Car USA, LLC (Volvo Car)",2021-2025 XC40; 2022 V90; 2022-2025 S90; V90CC; C40; XC60; 2023-2025 S60; V60; V60CC; XC90; 2025 EC40 and EX40,"2021-2025 for most models; 2022 for V90; 2022-2025 for S90, V90CC, C40, XC60, S60, V60, XC90; 2025 for EC40 and EX40; V90CC only in 2022; C40 only in 2022; XC60 only in 2023-2025; S60 only in 2023-2025; V60 only in 2023-2025; V60CC only in 2023-2025; XC90 only in 2023-2025; EC40 and EX40 only in 2025; ",TRUE,,1.8883261680603027,2026-07-12T09:31:26Z
+23,granite4.1:3b,5,0,BMW,"2023-2024 X1, X5, X6, X7, XM; 530i, i5, 740i, 760i, i7, 750e","2023-2024 for the first set of models; all model years for the second set (530i, i5, 740i, 760i, i7, 750e) as indicated in the original statement.",TRUE,,1.0202221870422363,2026-07-12T09:31:27Z
+24,granite4.1:3b,5,0,"Forest River, Inc.",2026 Dynamax Europa; 2026 Grand Sport GT,2026,TRUE,,0.6101429462432861,2026-07-12T09:31:28Z
+25,granite4.1:3b,5,0,E-One Incorporated,2024 Cyclone N; 2024 Typhoon N,2024,TRUE,,0.5951688289642334,2026-07-12T09:31:29Z
+26,granite4.1:3b,5,0,Zero Motorcycles Inc.,2023-2024 DSR/X; 2024 DS; DSR; DSRP,2023; 2024,TRUE,,0.7065930366516113,2026-07-12T09:31:29Z
+27,granite4.1:3b,5,0,"Tesla, Inc.",2021-2025 Model S; 2021-2025 Model X,2021; 2022; 2023; 2024; 2025,TRUE,,0.7223069667816162,2026-07-12T09:31:30Z
+28,granite4.1:3b,5,0,PACCAR Incorporated,2021-2025 Peterbilt vehicles; 2021-2025 Kenworth vehicles,2021; 2022; 2023; 2024; 2025,TRUE,,0.7072892189025879,2026-07-12T09:31:31Z
+29,granite4.1:3b,5,0,Aston Martin,DBX (2021-2024); year_range_2021_to_2024,2021; 2022; 2023; 2024,TRUE,,0.7079229354858398,2026-07-12T09:31:31Z
+30,granite4.1:3b,5,0,"New Flyer of America, Inc.",2023-2024 XDE60; 2024 XD35; XD40; XD60,2023; 2024,TRUE,,0.7031540870666504,2026-07-12T09:31:32Z

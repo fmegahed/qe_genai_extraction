@@ -1,0 +1,2 @@
+model_name,temperature,n_documents,n_repeats,n_extractions,n_success,n_failure,success_rate,total_runtime_sec,mean_runtime_per_extraction_sec,median_runtime_per_extraction_sec,mean_total_runtime_per_document_sec
+gemma4:e2b,0,30,5,150,150,0,1,587.4762117862701,3.9165080785751343,3.790002465248108,19.58254039287567

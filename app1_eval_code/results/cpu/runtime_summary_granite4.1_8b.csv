@@ -1,0 +1,2 @@
+model_name,temperature,n_documents,n_repeats,n_extractions,n_success,n_failure,success_rate,total_runtime_sec,mean_runtime_per_extraction_sec,median_runtime_per_extraction_sec,mean_total_runtime_per_document_sec
+granite4.1:8b,0,30,5,150,145,5,0.9666666666666667,8639.498701810837,57.59665801207225,24.503650069236755,287.98329006036124

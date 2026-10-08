@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Thank You{% endblock %}
+{% block content_class %}narrow{% endblock %}
+
+{% block content %}
+<div class="card" style="text-align: center; margin-top: 60px; padding: 48px 32px;">
+  <div style="font-size: 3rem; margin-bottom: 8px;">&#127881;</div>
+  <h2>Thank you, {{ reviewer_name }}!</h2>
+  <p>You've completed all <strong>{{ total_items }}</strong> extractions.
+     Your ratings have been recorded and will directly support our study on
+     generative AI for quality engineering.</p>
+  <p>If you'd like to revisit or revise any of your answers, you can still do so
+     using your review link.</p>
+  <div style="margin-top: 24px;">
+    <a href="/review/{{ token }}/item/1" class="btn btn-secondary">Review my answers</a>
+  </div>
+</div>
+{% endblock %}
